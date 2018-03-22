@@ -1,0 +1,202 @@
+# -*- coding: utf-8 -*-
+
+import sys
+from z3 import *
+from launch_model import *
+from utils import *
+from global_paths import *
+from grn_inference import getCState, regulation_condition, testRS, aux_transition, transition_condition_sync, transition_condition_async
+
+##############################################
+## SOLVE MODEL call                         ##
+##############################################
+ 
+def call_run(model=full_toy_model, experiments=full_toy_experiments, simplify=False, visualize=False):
+    from models import readREINfile
+    from grn_solver import grn_solver
+    from get_grfs import get_grfs, write_grfs, simplify_grfs
+    if (visualize):
+    	from launch_model import model2igraph
+    [C, CRM, length, Idef, Iopt, R, E, typeT, solmax, KO, FE, uniqueness, 
+            limreg, P, Fixpoint] = readREINfile(model, experiments)
+    res = grn_solver(C, CRM, length, Idef, Iopt, R, E, typeT, solmax, 
+            KO, FE, uniqueness, limreg, P, Fixpoint, verbose=False)
+    try:
+        [resList, s, regInt] = res
+    except:
+        return(res)
+    title = "result_" + model.split("/")[0] + "_" + model.split("/")[1]
+    grfsList = [get_grfs(C, res, regInt) for res in resList]
+    write_grfs(grfsList, title=title)
+    print("MSG: Wrote GRFs in " + title + ".txt")
+    if (simplify):
+        for m in range(1, len(grfsList)+1):
+            simplify_grfs(title=title + "_model" + str(m) + ".txt")
+	print("MSG: Simplified functions.")
+    if (visualize):
+        for modelID in range(len(resList)):
+            print("MSG: Close plot to resume.")
+            model2igraph(modelID, resList, C, Idef, Iopt, P, plotIt=True)
+    return(s)
+ 
+def printRunSyntaxError(c):
+    if (not c):
+        print("MSG: If you wanted to run the solver, then you did not use the correct syntax.")
+        print("MSG: Correct syntax is \'run [--simplify] [--visualize] model experiments\'.")
+        return(True)
+    return(False)
+ 
+if (len(sys.argv) > 1 and sys.argv[1] != "launch"):
+	if (len(sys.argv) == 2):
+	    cond1 = sys.argv[1] == "run"
+	    if (not printRunSyntaxError(cond1)):
+		call_run()
+	if (len(sys.argv) > 2):
+	    cond1 = sys.argv[1] == "run"
+	    if (not printRunSyntaxError(cond1)):
+		## Tests toy model                   ##
+		if (len(sys.argv) == 2):
+		    call_run()
+		## Tests toy model w/ 1 option       ##
+		if (len(sys.argv) == 3):
+		    cond2 = sys.argv[2] == "--simplify"
+		    cond3 = sys.argv[2] == "--visualize"
+		    if (not printRunSyntaxError(cond2 or cond3)):
+		        call_run(simplify=cond2, visualize=cond3)
+		## Tests other models w/o options    ##
+		if (len(sys.argv) == 4):
+		    cond4 = sys.argv[2] != "--simplify"
+		    cond5 = sys.argv[2] != "--visualize"
+		    cond6 = sys.argv[3] != "--simplify"
+		    cond7 = sys.argv[3] != "--visualize"
+		    if (not printRunSyntaxError((cond4 and cond5 and cond6 and cond7) or ((not cond4 and not cond7) or (not cond6 and not cond5)))):
+		        if (cond4 and cond5 and cond6 and cond7):
+		            call_run(model=sys.argv[2], experiments=sys.argv[3])
+		        ## Tests toy model w/ 2 options      ##
+		        else:
+		            call_run(simplify=True, visualize=True)
+		## Tests other models w/ 1 option    ##
+		if (len(sys.argv) == 5):
+		    cond12 = sys.argv[2] == "--simplify"
+		    cond13 = sys.argv[2] == "--visualize"
+		    cond14 = sys.argv[3] != "--simplify"
+		    cond15 = sys.argv[3] != "--visualize"
+		    cond16 = sys.argv[4] != "--simplify"
+		    cond17 = sys.argv[4] != "--visualize"
+		    if (not printRunSyntaxError((cond12 or cond13) and cond14 and cond15 and cond16 and cond17)):
+		        if (cond12):
+		            call_run(model=sys.argv[3], experiments=sys.argv[4], simplify=True)
+		        else:
+		            call_run(model=sys.argv[3], experiments=sys.argv[4], visualize=True)
+		## Tests other models w/ 2 options   ##
+		if (len(sys.argv) == 6):
+		    cond18 = sys.argv[2] == "--simplify"
+		    cond19 = sys.argv[3] == "--visualize"
+		    cond20 = sys.argv[3] == "--simplify"
+		    cond21 = sys.argv[2] == "--visualize"
+		    cond22 = sys.argv[4] != "--simplify"
+		    cond23 = sys.argv[4] != "--visualize"
+		    cond24 = sys.argv[5] != "--simplify"
+		    cond25 = sys.argv[5] != "--visualize"
+		    if (not printRunSyntaxError(((cond18 and cond19) or (cond20 and cond21)) and cond22 and cond23 and cond24 and cond25)):
+		        call_run(model=sys.argv[4], experiments=sys.argv[5], simplify=True, visualize=True)
+		if (len(sys.argv) > 6):
+		    printRunSyntaxError(False)
+
+##############################################
+## LAUNCH MODEL call                        ##
+##############################################
+
+def getArgument(x, argv, default):
+	xx = "--" + x
+	if (any([arg == xx for arg in argv])):
+		i = argv.index(xx)
+		if (len(argv) < i+2):
+			return(default)
+		return(argv[i+1])
+	return(default)
+
+def getTrailingArguments(x, argv, default):
+	xx = "--" + x
+	if (any([arg == xx for arg in argv])):
+		i = argv.index(xx)
+		if (len(argv) < i+2):
+			return(default)
+		return(argv[i+1:])
+	return(default)
+
+from models import *
+
+def getConditionsExp(experiments):
+	with open(path_to_models + experiments, "r") as f:
+		[_, summary, condexp] = readConditions(splitNclean(f.read(), ";"))
+	return(condexp)
+
+if (len(sys.argv) > 1 and sys.argv[1] == "launch"):
+	if (len(sys.argv) == 2):
+		print("MSG: If you wanted to launch the solver, then you probably forgot the model name.")
+		print("MSG: Correct syntax is \'launch model_name [options]\'.")
+	else:
+		model = sys.argv[2] + "/" + getArgument("model", sys.argv, "model_expanded") + ".net"
+		experiments = sys.argv[2] + "/" + getArgument("experiments", sys.argv, "observations") + ".spec"
+		## To modify for plotting graph resulting from one of the models in resList ##
+		resList = []
+		[C, CRM, length, Idef, Iopt, R, E, typeT, solmax, KO, FE, uniqueness, 
+			limreg, P, Fixpoint] = readREINfile(model, experiments)
+		if (len(sys.argv) > 3 and sys.argv[3] == "igraph"):
+			if (not resList):
+				R = [["?"]]*len(C)
+				resList = [[['Is', [1]*len(Iopt)]] + [[C[i], R[i][0]] for i in range(len(C))]]
+			model2igraph(0, resList, C, Idef, Iopt, P, plotIt=True)
+		else:
+			print("-- START")
+			print("Solving abstract model...")
+			[resList, _, _] = grn_solver(C, CRM, length, Idef, Iopt, R, E, typeT, 
+				solmax, KO, FE, uniqueness, limreg, P, Fixpoint, printSolutions=False)
+			print("... done!")
+			condexp = getConditionsExp(experiments)
+			modelID = getArgument("modelID", sys.argv, 0)
+			q0 = getArgument("q0", sys.argv, "1"*len(C))
+			nstep = getArgument("nstep", sys.argv, length)
+			solmax = getArgument("solmax", sys.argv, 10)
+			steadyStates = getArgument("steadyStates", sys.argv, 0)
+			expnames = getTrailingArguments("expnames", sys.argv, [])
+			if (q0 in condexp.keys()):
+				state = condexp.get(q0)
+				names = [x[1] for x in state]
+				idx = [C.index(name) for name in names]
+				q0 = ["1"]*len(C)
+				for i in idx:
+					q0[i] = str(state[names.index(C[i])][2])
+			q0 = concat(q0)
+			trajectories = launch_model(modelID, C, CRM, resList, Idef, Iopt, R, 
+					q0, int(nstep), typeT, [], [], P, int(solmax), 
+					steadyStates=bool(steadyStates))
+			print("----------------------------------------------------------------")
+			print("modelID = " + str(modelID) + "; q0 = " + q0 + "; nstep = " + str(nstep) + "\n")
+			npaths = len(trajectories)
+			print("#trajectories = " + str(npaths))
+			print("----------------------------------------------------------------")
+			chunksC = [C[i:i + 10] for i in xrange(0, len(C), 10)]
+			for i in range(npaths):
+				printStates(trajectories, i, C)
+				path = trajectories[i][1]
+				print("\n")
+				for exp in expnames:
+					if (exp in condexp.keys()):
+						summary = condexp.get(exp)
+						nodesIDX = [C.index(x[1]) for x in summary]
+						values = concat([str(x[2]) for x in summary])
+						appear = False
+						for j in range(len(path)):
+							valuesPath = concat([path[j][1][idx] for idx in nodesIDX])
+							if (values == valuesPath):
+								print("Condition \'" + exp 
+									+ "\' appears at step " + str(j) + ".")
+								appear = True
+						if (not appear):
+							print("Condition \'" + exp + "\' does not appear in trajectory.")
+					else:
+						print("The condition \'" + exp + "\' does not exist.")
+				print("\n_______________________________________________\n\n")
+			print("--END")
