@@ -31,7 +31,7 @@ from copy import deepcopy
 #' @param plotIt boolean for plotting the igraph
 #' @param verbose boolean for having comments
 #' @return res igraph associated to the model
-def model2igraph(modelID, resList, C, Idef1, Iopt1, P, plotIt=False, verbose=False):
+def model2igraph(modelID, resList, C, Idef1, Iopt1, P, model="", plotIt=False, verbose=False):
     Idef = deepcopy(Idef1)
     Iopt = deepcopy(Iopt1)
     ngenes = len(C)
@@ -71,6 +71,8 @@ def model2igraph(modelID, resList, C, Idef1, Iopt1, P, plotIt=False, verbose=Fal
         directed = True, 
         vertex_attrs = vertex_attrs, 
         edge_attrs = edge_attrs)
+    ## Get a GraphViz version         ##
+    g.write_dot(model + "_model" + str(modelID+1) + ".dot")
     ## Delete 0-degree vertices       ##
     g.vs.select(_degree = 0).delete()
     if (plotIt):

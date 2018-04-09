@@ -1,6 +1,6 @@
-## Automated Study of Gene Regulatory Networks via Regulatory Modules
+## Automated Inference of Gene Regulatory Networks Using Explicit Regulatory Modules
 
-This GitHub project provides the code for the network inference and model expansion procedures, along with all the related scripts quoted in the paper *Automated Study of Gene Regulatory Networks via Regulatory Modules* (non published).
+This GitHub project provides the code for the network inference and model expansion procedures, along with all the related scripts used in the paper *Automated Inference of Gene Regulatory Networks Using Explicit Regulatory Modules* (non published).
 
 ## Requirements & Installation
 
@@ -31,8 +31,6 @@ For Debian Linux:
 ## Description
 
 
-
-- *docs* Documentation related to the procedures.
 
 - *examples* Example models and test files.
 

@@ -137,17 +137,21 @@ if (len(sys.argv) > 1 and sys.argv[1] == "launch"):
 		print("MSG: If you wanted to launch the solver, then you probably forgot the model name.")
 		print("MSG: Correct syntax is \'launch model_name [options]\'.")
 	else:
-		model = sys.argv[2] + "/" + getArgument("model", sys.argv, "model_expanded") + ".net"
+		emodel = getArgument("model", sys.argv, "model_expanded")
+		model = sys.argv[2] + "/" + emodel + ".net"
 		experiments = sys.argv[2] + "/" + getArgument("experiments", sys.argv, "observations") + ".spec"
 		## To modify for plotting graph resulting from one of the models in resList ##
+		## For examples, see file resList_test.py in "examples/"                    ##
 		resList = []
 		[C, CRM, length, Idef, Iopt, R, E, typeT, solmax, KO, FE, uniqueness, 
 			limreg, P, Fixpoint] = readREINfile(model, experiments)
+		## Avoids adding colours to the nodes according to their perturbations      ##
+		P = [""]*len(C)
 		if (len(sys.argv) > 3 and sys.argv[3] == "igraph"):
 			if (not resList):
 				R = [["?"]]*len(C)
 				resList = [[['Is', [1]*len(Iopt)]] + [[C[i], R[i][0]] for i in range(len(C))]]
-			model2igraph(0, resList, C, Idef, Iopt, P, plotIt=True)
+			model2igraph(0, resList, C, Idef, Iopt, P, model=sys.argv[2] + "_" + emodel, plotIt=True)
 		else:
 			print("-- START")
 			print("Solving abstract model...")
