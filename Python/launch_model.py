@@ -10,6 +10,29 @@ from copy import deepcopy
 ## Display the graph visualization of a     ##
 ## model found by the solver                ##
 ##############################################
+
+def write_dot_file(g, filename, addGRF):
+    tmpfile = filename + ".tmp"
+    dotfile = filename + ".dot"
+    g.write_dot(tmpfile)
+    with open(tmpfile, "r") as t:
+    	with open(dotfile, "w") as f:
+		for line in t:
+			if ("label=" in line and not ("label=\"+\"" in line)):
+				if (addGRF and not ("label=-" in line)):
+					import re
+					idx = [m.start() for m in re.compile("[(]").finditer(line[:-2])][0]
+					r = [[m.start(), m.start()+len(m.group())] for m in re.compile("[0-9]+").finditer(line[:-2])][-1]
+					tmp = line[10:(idx-1)] + "_" + line[r[0]:r[1]] + line[(r[1]+1):-1]
+					line = line[:10] + tmp + "\n"
+				else:
+					line = line[:10] + "\"" + line[10:-1] + "\"\n"
+			f.write(line)
+    from os import remove
+    from subprocess import call
+    call("dot -Tpng " + dotfile + " > " + filename + ".png", shell=True)
+    remove(tmpfile)
+    remove(dotfile)
  
 #' Display the Boolean Network representation 
 #' of the model: nodes are annotated by gene name and
@@ -31,7 +54,7 @@ from copy import deepcopy
 #' @param plotIt boolean for plotting the igraph
 #' @param verbose boolean for having comments
 #' @return res igraph associated to the model
-def model2igraph(modelID, resList, C, Idef1, Iopt1, P, model="", plotIt=False, verbose=False):
+def model2igraph(modelID, resList, C, Idef1, Iopt1, P, model="", addGRF=True, plotIt=False, verbose=False):
     Idef = deepcopy(Idef1)
     Iopt = deepcopy(Iopt1)
     ngenes = len(C)
@@ -60,7 +83,7 @@ def model2igraph(modelID, resList, C, Idef1, Iopt1, P, model="", plotIt=False, v
     verboseIt("Node colors: " + str([C[i] + " is " + color[i] for i in range(ngenes)]), verbose)
     grf = [str(x[1]) for x in resList[1:(ngenes+1)]]
     verboseIt("Node GRFs: " + str([C[i] + " uses rule #" + grf[i] for i in range(ngenes)]), verbose)
-    vertex_attrs = {"label": [C[i] + " (" + grf[i] + ")" for i in range(ngenes)], 
+    vertex_attrs = {"label": [C[i] + (" (" + grf[i] + ")" if (addGRF) else "") for i in range(ngenes)], 
             "size" : [60+20*(len(c)/2-1) for c in C]*ngenes,
             "color": color}
     edge_attrs = {"label": elabels,
@@ -72,7 +95,8 @@ def model2igraph(modelID, resList, C, Idef1, Iopt1, P, model="", plotIt=False, v
         vertex_attrs = vertex_attrs, 
         edge_attrs = edge_attrs)
     ## Get a GraphViz version         ##
-    g.write_dot(model + "_model" + str(modelID+1) + ".dot")
+    filename = model + "_model" + str(modelID+1)
+    write_dot_file(g, filename, addGRF)
     ## Delete 0-degree vertices       ##
     g.vs.select(_degree = 0).delete()
     if (plotIt):

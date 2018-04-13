@@ -142,16 +142,28 @@ if (len(sys.argv) > 1 and sys.argv[1] == "launch"):
 		experiments = sys.argv[2] + "/" + getArgument("experiments", sys.argv, "observations") + ".spec"
 		## To modify for plotting graph resulting from one of the models in resList ##
 		## For examples, see file resList_test.py in "examples/"                    ##
-		resList = []
+		sys.path.insert(0, '../examples')
+		from resList_test import *
+		if (sys.argv[2]=="pluripotency"):
+			resList = resList_Dunn_regular if (emodel=="model_expanded") else resList_Dunn_expanded
+		elif (sys.argv[2]=="collombet"):
+			resList = resList_Collombet_regular if (emodel=="model_expanded") else resList_Collombet_expanded
+		else:
+			resList = []
 		[C, CRM, length, Idef, Iopt, R, E, typeT, solmax, KO, FE, uniqueness, 
 			limreg, P, Fixpoint] = readREINfile(model, experiments)
 		## Avoids adding colours to the nodes according to their perturbations      ##
 		P = [""]*len(C)
 		if (len(sys.argv) > 3 and sys.argv[3] == "igraph"):
 			if (not resList):
+				addGRF = False
 				R = [["?"]]*len(C)
 				resList = [[['Is', [1]*len(Iopt)]] + [[C[i], R[i][0]] for i in range(len(C))]]
-			model2igraph(0, resList, C, Idef, Iopt, P, model=sys.argv[2] + "_" + emodel, plotIt=True)
+			else:
+				addGRF = True
+			## Boolean addGRF is set to True iff. indices corresponding to GRF  ##
+			## templates should be printed                                      ## 
+			model2igraph(0, resList, C, Idef, Iopt, P, model=sys.argv[2] + "_" + emodel, plotIt=True, addGRF=addGRF)
 		else:
 			print("-- START")
 			print("Solving abstract model...")

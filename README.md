@@ -123,12 +123,19 @@ By default, the model file and the experiments files are respectively named "mod
 
 All the arguments between brackets are optional. The optional arguments following a double dash can be given in any order, **except for** argument list associated with "--expnames" that must be last.
 
-**Example:** To use the **Collombet** model (located at "../examples/models/collombet"), and get the GRN corresponding to the abstract model, type the following command:
+**Example:** 
+
+To use the regular **Collombet** model (located at "../examples/models/collombet/model_expanded.net"), and get the GRN corresponding to the abstract model (in PNG format), type the following command:
 
 `python solve.py launch collombet igraph`
 
 
-To use the regular **Collombet** model (located at "../examples/models/collombet"), and generate at most 5 trajectories of length 40 using the first model solution found by the solver, from initial state *LymphoidMyeloidPP* (available in the "observations.spec" file associated with the Collombet model), with the fix point condition applied at states of step 40, and look for condition *FinalStateMac*, type the following command:
+To use an expanded **Collombet** model (located at "../examples/models/collombet/expanded.net"), and get the GRN corresponding to the abstract model (in PNG format), type the following command:
+
+`python solve.py launch collombet igraph --model expanded`
+
+
+To use the regular **Collombet** model (located at "../examples/models/collombet/model_expanded.net"), and generate at most 5 trajectories of length 40 using the first model solution found by the solver, from initial state *LymphoidMyeloidPP* (available in the "observations.spec" file associated with the Collombet model), with the fix point condition applied at states of step 40, and look for condition *FinalStateMac*, type the following command:
 
 `python solve.py launch collombet --q0 LymphoidMyeloidPP --nstep 40 --solmax 5 --steadyStates 1 --expnames FinalStateMac`
 
