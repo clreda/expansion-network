@@ -1,0 +1,4406 @@
+MSG: --------- EXPERIMENT 'LineageOne'
+MSG: --------- EXPERIMENT 'LineageTwo'
+MSG: --------- EXPERIMENT 'LineageThree'
+MSG: --------- EXPERIMENT 'LineageFour'
+MSG: 
+TIME = 28.33 sec
+
+MSG: CHECKING TIME = 21.98 sec
+
+MSG: Model no. 1 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 14
+	grf_Cebpb = 7
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 10
+	grf_Runx1 = 4
+	grf_Gfi1 = 11
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 1
+	grf_Il7r_act = 4
+	grf_E2a_gene = 4
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 15
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 6
+	grf_Il7 = 15
+	grf_Cebpa_ER = 4
+MSG: ____________________________________
+
+MSG: 
+TIME = 6889.32 sec
+
+MSG: CHECKING TIME = 14748.84 sec
+
+MSG: Model no. 2 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 3
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 10
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 14749.78 sec
+
+MSG: CHECKING TIME = 2.21 sec
+
+MSG: Model no. 3 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 8
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 10
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.12 sec
+
+MSG: CHECKING TIME = 2.21 sec
+
+MSG: Model no. 4 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 10
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 10
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.11 sec
+
+MSG: CHECKING TIME = 2.15 sec
+
+MSG: Model no. 5 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 1
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 10
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.06 sec
+
+MSG: CHECKING TIME = 2.20 sec
+
+MSG: Model no. 6 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 5
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 10
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.14 sec
+
+MSG: CHECKING TIME = 2.16 sec
+
+MSG: Model no. 7 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 14
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 10
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.07 sec
+
+MSG: CHECKING TIME = 2.17 sec
+
+MSG: Model no. 8 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 15
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 10
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.08 sec
+
+MSG: CHECKING TIME = 2.15 sec
+
+MSG: Model no. 9 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 7
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 10
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.05 sec
+
+MSG: CHECKING TIME = 2.15 sec
+
+MSG: Model no. 10 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 16
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 10
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.04 sec
+
+MSG: CHECKING TIME = 2.17 sec
+
+MSG: Model no. 11 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 17
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 10
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.07 sec
+
+MSG: CHECKING TIME = 2.15 sec
+
+MSG: Model no. 12 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 6
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 10
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.05 sec
+
+MSG: CHECKING TIME = 2.20 sec
+
+MSG: Model no. 13 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 9
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 10
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.11 sec
+
+MSG: CHECKING TIME = 2.18 sec
+
+MSG: Model no. 14 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 10
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.12 sec
+
+MSG: CHECKING TIME = 2.18 sec
+
+MSG: Model no. 15 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 11
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 10
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.08 sec
+
+MSG: CHECKING TIME = 2.15 sec
+
+MSG: Model no. 16 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 13
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 10
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.06 sec
+
+MSG: CHECKING TIME = 2.17 sec
+
+MSG: Model no. 17 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 3
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.07 sec
+
+MSG: CHECKING TIME = 2.15 sec
+
+MSG: Model no. 18 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 12
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.05 sec
+
+MSG: CHECKING TIME = 2.17 sec
+
+MSG: Model no. 19 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.07 sec
+
+MSG: CHECKING TIME = 2.18 sec
+
+MSG: Model no. 20 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 9
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.08 sec
+
+MSG: CHECKING TIME = 2.16 sec
+
+MSG: Model no. 21 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 1
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.07 sec
+
+MSG: CHECKING TIME = 2.15 sec
+
+MSG: Model no. 22 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 15
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.05 sec
+
+MSG: CHECKING TIME = 2.73 sec
+
+MSG: Model no. 23 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 11
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.64 sec
+
+MSG: CHECKING TIME = 2.16 sec
+
+MSG: Model no. 24 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 7
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.09 sec
+
+MSG: CHECKING TIME = 2.21 sec
+
+MSG: Model no. 25 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 7
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 9
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.12 sec
+
+MSG: CHECKING TIME = 2.16 sec
+
+MSG: Model no. 26 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 7
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 12
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.05 sec
+
+MSG: CHECKING TIME = 2.30 sec
+
+MSG: Model no. 27 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 7
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 10
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.21 sec
+
+MSG: CHECKING TIME = 2.15 sec
+
+MSG: Model no. 28 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 7
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.05 sec
+
+MSG: CHECKING TIME = 2.15 sec
+
+MSG: Model no. 29 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 7
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 15
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.05 sec
+
+MSG: CHECKING TIME = 2.15 sec
+
+MSG: Model no. 30 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 7
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 3
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.05 sec
+
+MSG: CHECKING TIME = 2.15 sec
+
+MSG: Model no. 31 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 7
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 11
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.08 sec
+
+MSG: CHECKING TIME = 2.45 sec
+
+MSG: Model no. 32 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 7
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 6
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.39 sec
+
+MSG: CHECKING TIME = 2.25 sec
+
+MSG: Model no. 33 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 7
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 7
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.16 sec
+
+MSG: CHECKING TIME = 2.19 sec
+
+MSG: Model no. 34 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 7
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 0
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.09 sec
+
+MSG: CHECKING TIME = 2.15 sec
+
+MSG: Model no. 35 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 7
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 2
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.05 sec
+
+MSG: CHECKING TIME = 2.22 sec
+
+MSG: Model no. 36 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 12
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 9
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.13 sec
+
+MSG: CHECKING TIME = 2.15 sec
+
+MSG: Model no. 37 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 3
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 9
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.04 sec
+
+MSG: CHECKING TIME = 2.18 sec
+
+MSG: Model no. 38 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 8
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 11
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 9
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 13
+	grf_Il7 = 13
+	grf_Cebpa_ER = 13
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.08 sec
+
+MSG: CHECKING TIME = 53.32 sec
+
+MSG: Model no. 39 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 5
+	grf_Cebpb = 10
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 6
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 4
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 9
+	grf_Il7 = 11
+	grf_Cebpa_ER = 3
+MSG: ____________________________________
+
+MSG: 
+TIME = 54.22 sec
+
+MSG: CHECKING TIME = 3.13 sec
+
+MSG: Model no. 40 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 5
+	grf_Cebpb = 10
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 6
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 0
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 9
+	grf_Il7 = 11
+	grf_Cebpa_ER = 3
+MSG: ____________________________________
+
+MSG: 
+TIME = 4.07 sec
+
+MSG: CHECKING TIME = 2.19 sec
+
+MSG: Model no. 41 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 5
+	grf_Cebpb = 10
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 6
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 1
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 9
+	grf_Il7 = 11
+	grf_Cebpa_ER = 3
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.08 sec
+
+MSG: CHECKING TIME = 2.16 sec
+
+MSG: Model no. 42 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 5
+	grf_Cebpb = 10
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 6
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 10
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 4
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 9
+	grf_Il7 = 11
+	grf_Cebpa_ER = 3
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.06 sec
+
+MSG: CHECKING TIME = 2.19 sec
+
+MSG: Model no. 43 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 5
+	grf_Cebpb = 10
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 6
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 3
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 4
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 9
+	grf_Il7 = 11
+	grf_Cebpa_ER = 3
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.09 sec
+
+MSG: CHECKING TIME = 2.21 sec
+
+MSG: Model no. 44 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 5
+	grf_Cebpb = 10
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 6
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 11
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 4
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 9
+	grf_Il7 = 11
+	grf_Cebpa_ER = 3
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.11 sec
+
+MSG: CHECKING TIME = 2.19 sec
+
+MSG: Model no. 45 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 5
+	grf_Cebpb = 10
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 6
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 12
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 4
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 9
+	grf_Il7 = 11
+	grf_Cebpa_ER = 3
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.11 sec
+
+MSG: CHECKING TIME = 2.21 sec
+
+MSG: Model no. 46 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 5
+	grf_Cebpb = 10
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 6
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 6
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 4
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 9
+	grf_Il7 = 11
+	grf_Cebpa_ER = 3
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.11 sec
+
+MSG: CHECKING TIME = 2.20 sec
+
+MSG: Model no. 47 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 5
+	grf_Cebpb = 10
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 6
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 9
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 4
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 9
+	grf_Il7 = 11
+	grf_Cebpa_ER = 3
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.11 sec
+
+MSG: CHECKING TIME = 2.17 sec
+
+MSG: Model no. 48 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 5
+	grf_Cebpb = 10
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 6
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 4
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 9
+	grf_Il7 = 11
+	grf_Cebpa_ER = 3
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.07 sec
+
+MSG: CHECKING TIME = 2.19 sec
+
+MSG: Model no. 49 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 5
+	grf_Cebpb = 10
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 6
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 15
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 4
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 9
+	grf_Il7 = 11
+	grf_Cebpa_ER = 3
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.10 sec
+
+MSG: CHECKING TIME = 9.58 sec
+
+MSG: Model no. 50 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 17
+	grf_Cebpb = 10
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 15
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 15
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 4
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 9
+	grf_Il7 = 2
+	grf_Cebpa_ER = 3
+MSG: ____________________________________
+
+MSG: 
+TIME = 10.48 sec
+
+MSG: CHECKING TIME = 2.16 sec
+
+MSG: Model no. 51 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 16
+	grf_Cebpb = 10
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 15
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 15
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 4
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 9
+	grf_Il7 = 2
+	grf_Cebpa_ER = 3
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.05 sec
+
+MSG: CHECKING TIME = 2.22 sec
+
+MSG: Model no. 52 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 17
+	grf_Cebpb = 10
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 12
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 15
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 4
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 9
+	grf_Il7 = 2
+	grf_Cebpa_ER = 3
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.11 sec
+
+MSG: CHECKING TIME = 2.19 sec
+
+MSG: Model no. 53 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 17
+	grf_Cebpb = 10
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 15
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 4
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 9
+	grf_Il7 = 2
+	grf_Cebpa_ER = 3
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.09 sec
+
+MSG: CHECKING TIME = 2.15 sec
+
+MSG: Model no. 54 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 17
+	grf_Cebpb = 10
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 3
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 15
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 4
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 9
+	grf_Il7 = 2
+	grf_Cebpa_ER = 3
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.04 sec
+
+MSG: CHECKING TIME = 2.15 sec
+
+MSG: Model no. 55 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 17
+	grf_Cebpb = 10
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 15
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 4
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 9
+	grf_Il7 = 2
+	grf_Cebpa_ER = 3
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.05 sec
+
+MSG: CHECKING TIME = 2.17 sec
+
+MSG: Model no. 56 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 17
+	grf_Cebpb = 10
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 11
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 15
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 4
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 9
+	grf_Il7 = 2
+	grf_Cebpa_ER = 3
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.06 sec
+
+MSG: CHECKING TIME = 2.15 sec
+
+MSG: Model no. 57 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 17
+	grf_Cebpb = 10
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 6
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 15
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 4
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 9
+	grf_Il7 = 2
+	grf_Cebpa_ER = 3
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.04 sec
+
+MSG: CHECKING TIME = 2.17 sec
+
+MSG: Model no. 58 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 16
+	grf_Cebpb = 10
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 15
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 4
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 9
+	grf_Il7 = 2
+	grf_Cebpa_ER = 3
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.06 sec
+
+MSG: CHECKING TIME = 50.04 sec
+
+MSG: Model no. 59 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 5
+	grf_Cebpb = 1
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 15
+	grf_Spi12 = 3
+	grf_Runx1 = 4
+	grf_Gfi1 = 9
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 15
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 12
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 2
+	grf_Il7 = 2
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 50.95 sec
+
+MSG: CHECKING TIME = 2.19 sec
+
+MSG: Model no. 60 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 5
+	grf_Cebpb = 1
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 15
+	grf_Spi12 = 3
+	grf_Runx1 = 4
+	grf_Gfi1 = 9
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 15
+	grf_Il7r_act = 4
+	grf_E2a_gene = 0
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 12
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 2
+	grf_Il7 = 2
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.08 sec
+
+MSG: CHECKING TIME = 2.15 sec
+
+MSG: Model no. 61 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 5
+	grf_Cebpb = 1
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 15
+	grf_Spi12 = 3
+	grf_Runx1 = 4
+	grf_Gfi1 = 9
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 15
+	grf_Il7r_act = 4
+	grf_E2a_gene = 4
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 12
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 2
+	grf_Il7 = 2
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.06 sec
+
+MSG: CHECKING TIME = 2.17 sec
+
+MSG: Model no. 62 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 5
+	grf_Cebpb = 1
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 15
+	grf_Spi12 = 3
+	grf_Runx1 = 4
+	grf_Gfi1 = 9
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 11
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 12
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 2
+	grf_Il7 = 2
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.06 sec
+
+MSG: CHECKING TIME = 2.15 sec
+
+MSG: Model no. 63 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 5
+	grf_Cebpb = 1
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 15
+	grf_Spi12 = 3
+	grf_Runx1 = 4
+	grf_Gfi1 = 9
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 3
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 12
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 2
+	grf_Il7 = 2
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.05 sec
+
+MSG: CHECKING TIME = 2.18 sec
+
+MSG: Model no. 64 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 5
+	grf_Cebpb = 1
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 15
+	grf_Spi12 = 3
+	grf_Runx1 = 4
+	grf_Gfi1 = 9
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 12
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 2
+	grf_Il7 = 2
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.08 sec
+
+MSG: CHECKING TIME = 2.32 sec
+
+MSG: Model no. 65 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 5
+	grf_Cebpb = 1
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 15
+	grf_Spi12 = 3
+	grf_Runx1 = 4
+	grf_Gfi1 = 9
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 1
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 12
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 2
+	grf_Il7 = 2
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.29 sec
+
+MSG: CHECKING TIME = 2.50 sec
+
+MSG: Model no. 66 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 5
+	grf_Cebpb = 1
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 15
+	grf_Spi12 = 3
+	grf_Runx1 = 4
+	grf_Gfi1 = 9
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 7
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 12
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 2
+	grf_Il7 = 2
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.45 sec
+
+MSG: CHECKING TIME = 2.46 sec
+
+MSG: Model no. 67 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 5
+	grf_Cebpb = 1
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 15
+	grf_Spi12 = 3
+	grf_Runx1 = 4
+	grf_Gfi1 = 9
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 9
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 12
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 2
+	grf_Il7 = 2
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.41 sec
+
+MSG: CHECKING TIME = 2.52 sec
+
+MSG: Model no. 68 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 5
+	grf_Cebpb = 1
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 15
+	grf_Spi12 = 3
+	grf_Runx1 = 4
+	grf_Gfi1 = 9
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 12
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 12
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 2
+	grf_Il7 = 2
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.47 sec
+
+MSG: CHECKING TIME = 2.48 sec
+
+MSG: Model no. 69 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 5
+	grf_Cebpb = 1
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 15
+	grf_Spi12 = 3
+	grf_Runx1 = 4
+	grf_Gfi1 = 9
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 10
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 12
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 2
+	grf_Il7 = 2
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.43 sec
+
+MSG: CHECKING TIME = 48.23 sec
+
+MSG: Model no. 70 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 9
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 11
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 49.13 sec
+
+MSG: CHECKING TIME = 2.12 sec
+
+MSG: Model no. 71 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 16
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 11
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.01 sec
+
+MSG: CHECKING TIME = 2.15 sec
+
+MSG: Model no. 72 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 15
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 11
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.06 sec
+
+MSG: CHECKING TIME = 2.13 sec
+
+MSG: Model no. 73 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 5
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 11
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.03 sec
+
+MSG: CHECKING TIME = 2.14 sec
+
+MSG: Model no. 74 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 7
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 11
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.04 sec
+
+MSG: CHECKING TIME = 2.13 sec
+
+MSG: Model no. 75 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 17
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 11
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.03 sec
+
+MSG: CHECKING TIME = 2.13 sec
+
+MSG: Model no. 76 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 13
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 11
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.02 sec
+
+MSG: CHECKING TIME = 2.14 sec
+
+MSG: Model no. 77 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 11
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 11
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.03 sec
+
+MSG: CHECKING TIME = 2.13 sec
+
+MSG: Model no. 78 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 8
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 11
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.02 sec
+
+MSG: CHECKING TIME = 2.18 sec
+
+MSG: Model no. 79 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 6
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 11
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.10 sec
+
+MSG: CHECKING TIME = 2.18 sec
+
+MSG: Model no. 80 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 3
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 11
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.10 sec
+
+MSG: CHECKING TIME = 2.21 sec
+
+MSG: Model no. 81 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 14
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 11
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.14 sec
+
+MSG: CHECKING TIME = 2.14 sec
+
+MSG: Model no. 82 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 12
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 11
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.03 sec
+
+MSG: CHECKING TIME = 2.14 sec
+
+MSG: Model no. 83 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 10
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 11
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 1
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.04 sec
+
+MSG: CHECKING TIME = 2.12 sec
+
+MSG: Model no. 84 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 14
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 11
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 9
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.02 sec
+
+MSG: CHECKING TIME = 2.14 sec
+
+MSG: Model no. 85 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 14
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 11
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 0
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.03 sec
+
+MSG: CHECKING TIME = 2.13 sec
+
+MSG: Model no. 86 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 14
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 11
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 4
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.03 sec
+
+MSG: CHECKING TIME = 2.16 sec
+
+MSG: Model no. 87 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 14
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 11
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 2
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.07 sec
+
+MSG: CHECKING TIME = 3.85 sec
+
+MSG: Model no. 88 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 14
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 11
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 7
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 4.74 sec
+
+MSG: CHECKING TIME = 2.16 sec
+
+MSG: Model no. 89 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 14
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 3
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 7
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.07 sec
+
+MSG: CHECKING TIME = 2.13 sec
+
+MSG: Model no. 90 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 14
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 12
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 7
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.03 sec
+
+MSG: CHECKING TIME = 2.15 sec
+
+MSG: Model no. 91 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 14
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 7
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 7
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.06 sec
+
+MSG: CHECKING TIME = 2.14 sec
+
+MSG: Model no. 92 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 14
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 6
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 7
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.03 sec
+
+MSG: CHECKING TIME = 2.13 sec
+
+MSG: Model no. 93 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 14
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 1
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 7
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.05 sec
+
+MSG: CHECKING TIME = 2.13 sec
+
+MSG: Model no. 94 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 14
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 9
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 7
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.02 sec
+
+MSG: CHECKING TIME = 2.13 sec
+
+MSG: Model no. 95 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 14
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 15
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 7
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.03 sec
+
+MSG: CHECKING TIME = 2.13 sec
+
+MSG: Model no. 96 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 13
+	grf_Cebpb = 14
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 7
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 10
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 7
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 12
+	grf_Il7 = 11
+	grf_Cebpa_ER = 14
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.02 sec
+
+MSG: CHECKING TIME = 11.32 sec
+
+MSG: Model no. 97 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 14
+	grf_Cebpb = 14
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 7
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 12
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 11
+	grf_Il7 = 16
+	grf_Cebpa_ER = 17
+MSG: ____________________________________
+
+MSG: 
+TIME = 12.21 sec
+
+MSG: CHECKING TIME = 2.16 sec
+
+MSG: Model no. 98 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 14
+	grf_Cebpb = 14
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 7
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 12
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 10
+	grf_Il7 = 16
+	grf_Cebpa_ER = 17
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.06 sec
+
+MSG: CHECKING TIME = 2.15 sec
+
+MSG: Model no. 99 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 14
+	grf_Cebpb = 14
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 7
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 12
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 14
+	grf_Il7 = 16
+	grf_Cebpa_ER = 17
+MSG: ____________________________________
+
+MSG: 
+TIME = 3.05 sec
+
+MSG: CHECKING TIME = 2.76 sec
+
+MSG: Model no. 100 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 14
+	grf_Cebpb = 14
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 7
+	grf_Spi12 = 15
+	grf_Runx1 = 4
+	grf_Gfi1 = 7
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 7
+	grf_Il7r_act = 4
+	grf_E2a_gene = 2
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 12
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 17
+	grf_Il7 = 16
+	grf_Cebpa_ER = 17
+MSG: ____________________________________
+
+MSG: Wrote GRFs in result_collombet_model_expanded.net.txt
+MSG: Simplify file result_collombet_model_expanded.net_model1.txt
+MSG: Simplify file result_collombet_model_expanded.net_model2.txt
+MSG: Simplify file result_collombet_model_expanded.net_model3.txt
+MSG: Simplify file result_collombet_model_expanded.net_model4.txt
+MSG: Simplify file result_collombet_model_expanded.net_model5.txt
+MSG: Simplify file result_collombet_model_expanded.net_model6.txt
+MSG: Simplify file result_collombet_model_expanded.net_model7.txt
+MSG: Simplify file result_collombet_model_expanded.net_model8.txt
+MSG: Simplify file result_collombet_model_expanded.net_model9.txt
+MSG: Simplify file result_collombet_model_expanded.net_model10.txt
+MSG: Simplify file result_collombet_model_expanded.net_model11.txt
+MSG: Simplify file result_collombet_model_expanded.net_model12.txt
+MSG: Simplify file result_collombet_model_expanded.net_model13.txt
+MSG: Simplify file result_collombet_model_expanded.net_model14.txt
+MSG: Simplify file result_collombet_model_expanded.net_model15.txt
+MSG: Simplify file result_collombet_model_expanded.net_model16.txt
+MSG: Simplify file result_collombet_model_expanded.net_model17.txt
+MSG: Simplify file result_collombet_model_expanded.net_model18.txt
+MSG: Simplify file result_collombet_model_expanded.net_model19.txt
+MSG: Simplify file result_collombet_model_expanded.net_model20.txt
+MSG: Simplify file result_collombet_model_expanded.net_model21.txt
+MSG: Simplify file result_collombet_model_expanded.net_model22.txt
+MSG: Simplify file result_collombet_model_expanded.net_model23.txt
+MSG: Simplify file result_collombet_model_expanded.net_model24.txt
+MSG: Simplify file result_collombet_model_expanded.net_model25.txt
+MSG: Simplify file result_collombet_model_expanded.net_model26.txt
+MSG: Simplify file result_collombet_model_expanded.net_model27.txt
+MSG: Simplify file result_collombet_model_expanded.net_model28.txt
+MSG: Simplify file result_collombet_model_expanded.net_model29.txt
+MSG: Simplify file result_collombet_model_expanded.net_model30.txt
+MSG: Simplify file result_collombet_model_expanded.net_model31.txt
+MSG: Simplify file result_collombet_model_expanded.net_model32.txt
+MSG: Simplify file result_collombet_model_expanded.net_model33.txt
+MSG: Simplify file result_collombet_model_expanded.net_model34.txt
+MSG: Simplify file result_collombet_model_expanded.net_model35.txt
+MSG: Simplify file result_collombet_model_expanded.net_model36.txt
+MSG: Simplify file result_collombet_model_expanded.net_model37.txt
+MSG: Simplify file result_collombet_model_expanded.net_model38.txt
+MSG: Simplify file result_collombet_model_expanded.net_model39.txt
+MSG: Simplify file result_collombet_model_expanded.net_model40.txt
+MSG: Simplify file result_collombet_model_expanded.net_model41.txt
+MSG: Simplify file result_collombet_model_expanded.net_model42.txt
+MSG: Simplify file result_collombet_model_expanded.net_model43.txt
+MSG: Simplify file result_collombet_model_expanded.net_model44.txt
+MSG: Simplify file result_collombet_model_expanded.net_model45.txt
+MSG: Simplify file result_collombet_model_expanded.net_model46.txt
+MSG: Simplify file result_collombet_model_expanded.net_model47.txt
+MSG: Simplify file result_collombet_model_expanded.net_model48.txt
+MSG: Simplify file result_collombet_model_expanded.net_model49.txt
+MSG: Simplify file result_collombet_model_expanded.net_model50.txt
+MSG: Simplify file result_collombet_model_expanded.net_model51.txt
+MSG: Simplify file result_collombet_model_expanded.net_model52.txt
+MSG: Simplify file result_collombet_model_expanded.net_model53.txt
+MSG: Simplify file result_collombet_model_expanded.net_model54.txt
+MSG: Simplify file result_collombet_model_expanded.net_model55.txt
+MSG: Simplify file result_collombet_model_expanded.net_model56.txt
+MSG: Simplify file result_collombet_model_expanded.net_model57.txt
+MSG: Simplify file result_collombet_model_expanded.net_model58.txt
+MSG: Simplify file result_collombet_model_expanded.net_model59.txt
+MSG: Simplify file result_collombet_model_expanded.net_model60.txt
+MSG: Simplify file result_collombet_model_expanded.net_model61.txt
+MSG: Simplify file result_collombet_model_expanded.net_model62.txt
+MSG: Simplify file result_collombet_model_expanded.net_model63.txt
+MSG: Simplify file result_collombet_model_expanded.net_model64.txt
+MSG: Simplify file result_collombet_model_expanded.net_model65.txt
+MSG: Simplify file result_collombet_model_expanded.net_model66.txt
+MSG: Simplify file result_collombet_model_expanded.net_model67.txt
+MSG: Simplify file result_collombet_model_expanded.net_model68.txt
+MSG: Simplify file result_collombet_model_expanded.net_model69.txt
+MSG: Simplify file result_collombet_model_expanded.net_model70.txt
+MSG: Simplify file result_collombet_model_expanded.net_model71.txt
+MSG: Simplify file result_collombet_model_expanded.net_model72.txt
+MSG: Simplify file result_collombet_model_expanded.net_model73.txt
+MSG: Simplify file result_collombet_model_expanded.net_model74.txt
+MSG: Simplify file result_collombet_model_expanded.net_model75.txt
+MSG: Simplify file result_collombet_model_expanded.net_model76.txt
+MSG: Simplify file result_collombet_model_expanded.net_model77.txt
+MSG: Simplify file result_collombet_model_expanded.net_model78.txt
+MSG: Simplify file result_collombet_model_expanded.net_model79.txt
+MSG: Simplify file result_collombet_model_expanded.net_model80.txt
+MSG: Simplify file result_collombet_model_expanded.net_model81.txt
+MSG: Simplify file result_collombet_model_expanded.net_model82.txt
+MSG: Simplify file result_collombet_model_expanded.net_model83.txt
+MSG: Simplify file result_collombet_model_expanded.net_model84.txt
+MSG: Simplify file result_collombet_model_expanded.net_model85.txt
+MSG: Simplify file result_collombet_model_expanded.net_model86.txt
+MSG: Simplify file result_collombet_model_expanded.net_model87.txt
+MSG: Simplify file result_collombet_model_expanded.net_model88.txt
+MSG: Simplify file result_collombet_model_expanded.net_model89.txt
+MSG: Simplify file result_collombet_model_expanded.net_model90.txt
+MSG: Simplify file result_collombet_model_expanded.net_model91.txt
+MSG: Simplify file result_collombet_model_expanded.net_model92.txt
+MSG: Simplify file result_collombet_model_expanded.net_model93.txt
+MSG: Simplify file result_collombet_model_expanded.net_model94.txt
+MSG: Simplify file result_collombet_model_expanded.net_model95.txt
+MSG: Simplify file result_collombet_model_expanded.net_model96.txt
+MSG: Simplify file result_collombet_model_expanded.net_model97.txt
+MSG: Simplify file result_collombet_model_expanded.net_model98.txt
+MSG: Simplify file result_collombet_model_expanded.net_model99.txt
+MSG: Simplify file result_collombet_model_expanded.net_model100.txt
+MSG: Simplified functions.

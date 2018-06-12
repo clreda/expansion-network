@@ -1,0 +1,71 @@
+MSG: --------- EXPERIMENT 'ExperimentOne'
+MSG: --------- EXPERIMENT 'ExperimentTwo'
+MSG: --------- EXPERIMENT 'ExperimentThree'
+MSG: --------- EXPERIMENT 'ExperimentFour'
+MSG: --------- EXPERIMENT 'ExperimentFive'
+MSG: --------- EXPERIMENT 'ExperimentSix'
+MSG: --------- EXPERIMENT 'ExperimentSeven'
+MSG: --------- EXPERIMENT 'ExperimentEight'
+MSG: --------- EXPERIMENT 'ExperimentNine'
+MSG: --------- EXPERIMENT 'ExperimentTen'
+MSG: --------- EXPERIMENT 'ExperimentEleven'
+MSG: --------- EXPERIMENT 'ExperimentTwelve'
+MSG: --------- EXPERIMENT 'ExperimentThirteen'
+MSG: --------- EXPERIMENT 'ExperimentFourteen'
+MSG: --------- EXPERIMENT 'ExperimentFifteen'
+MSG: --------- EXPERIMENT 'ExperimentSixteen'
+MSG: --------- EXPERIMENT 'ExperimentSeventeen'
+MSG: --------- EXPERIMENT 'ExperimentEighteen'
+MSG: --------- EXPERIMENT 'ExperimentNineteen'
+MSG: --------- EXPERIMENT 'ExperimentTwenty'
+MSG: --------- EXPERIMENT 'ExperimentTwentyOne'
+MSG: --------- EXPERIMENT 'ExperimentTwentyTwo'
+MSG: --------- EXPERIMENT 'ExperimentTwentyThree'
+MSG: 
+TIME = 461.59 sec
+
+MSG: CHECKING TIME = 5346.06 sec
+
+MSG: Model no. 1 found:
+MSG: > Interaction vector: 
+MSG: ['Tcf3', 'Esrrb_CM12018771', '-']['Tcf3', 'Esrrb_CM12018772', '-']['Tcf3', 'Esrrb_CM12018796', '-']['Sall4', 'Sox2_CM03005876', '+']['Sall4', 'Sox2_CM03005877', '+']['Stat3', 'Sox2_CM03005876', '-']['Stat3', 'Sox2_CM03005877', '-']['Esrrb', 'Klf2', '-']['Esrrb', 'Klf4', '+']['Esrrb', 'Nanog', '+']['Esrrb', 'Tbx3', '+']['Esrrb', 'Tfcp2l1', '+']['Klf2', 'Klf4', '+']['Klf4', 'Klf2', '+']['Klf2', 'Nanog', '+']['Nanog', 'Klf2', '+']['Oct4', 'Klf2', '+']['Klf2', 'Tbx3', '-']['Tbx3', 'Klf2', '-']['Klf2', 'Tfcp2l1', '-']['Tfcp2l1', 'Klf2', '-']['Gbx2', 'Klf2', '-']['Klf2', 'Sall4', '+']['Sall4', 'Klf2', '+']['Klf2', 'Tcf3', '+']['Tcf3', 'Klf2', '+']['Klf4', 'Tbx3', '+']['Tbx3', 'Klf4', '+']['Klf4', 'Tfcp2l1', '+']['Tfcp2l1', 'Klf4', '+']['Gbx2', 'Klf4', '+']['Oct4', 'Nanog', '+']['Nanog', 'Tfcp2l1', '+']['Tfcp2l1', 'Nanog', '+']['Sox2', 'Nanog', '+']['Oct4', 'Tfcp2l1', '-']['Oct4', 'Tcf3', '+']['Tbx3', 'Tfcp2l1', '+']['Tfcp2l1', 'Tbx3', '+']['Gbx2', 'Tbx3', '+']['Tbx3', 'Sall4', '+']['Sall4', 'Tbx3', '+']['Tbx3', 'Tcf3', '-']['Tcf3', 'Tbx3', '-']['Sox2', 'Tbx3', '+']['Tfcp2l1', 'Sall4', '+']['Sall4', 'Tfcp2l1', '+']['Stat3', 'Tcf3', '-']['Sox2', 'Sall4', '+']['Tcf3', 'Nanog', '+']['Nanog', 'Tcf3', '+']['Klf2', 'Esrrb_CM12018796', '-']['Klf4', 'Esrrb_CM12018796', '+']['Nanog', 'Esrrb_CM12018772', '+']['Oct4', 'Esrrb_CM12018772', '-']['Oct4', 'Esrrb_CM12018796', '-']['Stat3', 'Esrrb_CM12018771', '+']['Klf2', 'Oct4_CM17006876', '+']['Klf2', 'Oct4_CM17006877', '+']['Nanog', 'Oct4_CM17006876', '+']['Nanog', 'Sox2_CM03005876', '+']['Nanog', 'Sox2_CM03005877', '+']['Oct4', 'Gbx2_CM01018070', '-']['Oct4', 'Gbx2_CM01018072', '-']['Sox2', 'Stat3_CM11023938', '-']['Gbx2_CM01018070', 'Gbx2', '+']['Gbx2_CM01018071', 'Gbx2', '+']['Gbx2_CM01018072', 'Gbx2', '+']['Esrrb_CM12018771', 'Esrrb', '+']['Esrrb_CM12018772', 'Esrrb', '+']['Esrrb_CM12018796', 'Esrrb', '+']['Sox2_CM03005876', 'Sox2', '+']['Sox2_CM03005877', 'Sox2', '+']['Oct4_CM17006875', 'Oct4', '+']['Oct4_CM17006876', 'Oct4', '+']['Oct4_CM17006877', 'Oct4', '+']['Stat3_CM11023938', 'Stat3', '+']['Stat3_CM11023939', 'Stat3', '+']
+	selected_interactions = 010110000000101010000010000010100001010001101110000001000111010001111111111100
+MSG: > GRFs: 
+	grf_Tcf3 = 16
+	grf_MEKERK = 16
+	grf_Oct4 = 4
+	grf_Sall4 = 2
+	grf_Sox2 = 4
+	grf_Tbx3 = 4
+	grf_Klf2 = 4
+	grf_Nanog = 4
+	grf_Esrrb = 10
+	grf_Tfcp2l1 = 7
+	grf_Gbx2 = 0
+	grf_Klf4 = 2
+	grf_Stat3 = 11
+	grf_PD = 2
+	grf_CH = 4
+	grf_LIF = 15
+	grf_Oct4_CM17006877 = 10
+	grf_Oct4_CM17006876 = 18
+	grf_Oct4_CM17006875 = 18
+	grf_Sox2_CM03005877 = 18
+	grf_Sox2_CM03005876 = 5
+	grf_Esrrb_CM12018796 = 3
+	grf_Esrrb_CM12018772 = 3
+	grf_Esrrb_CM12018771 = 1
+	grf_Gbx2_CM01018072 = 17
+	grf_Gbx2_CM01018071 = 16
+	grf_Gbx2_CM01018070 = 15
+	grf_Stat3_CM11023939 = 2
+	grf_Stat3_CM11023938 = 4
+MSG: ____________________________________
+
+MSG: Maximum number of solutions reached.
+
+MSG: There are solutions.
+
+MSG: Wrote GRFs in result_pluripotency_pluripotency-partial+_expanded_remove_Esrrb_CM12018795.net.txt
+MSG: Simplify file result_pluripotency_pluripotency-partial+_expanded_remove_Esrrb_CM12018795.net_model1.txt
+MSG: Simplified functions.
