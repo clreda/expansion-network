@@ -1,0 +1,13 @@
+directive updates sync;
+directive length 20;
+directive uniqueness full;
+directive limit 20;
+directive regulation default;
+G2[](0..17); S1[+](9); S2[+](4); G1[](13); 
+S1	G1	positive;
+S2	G1	negative;
+G2	G1	positive;
+S1	G2	positive;
+S1	G2	negative;
+S2	G2	positive;
+S2	G2	negative;
