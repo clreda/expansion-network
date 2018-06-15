@@ -171,7 +171,8 @@ if (len(sys.argv) > 1 and sys.argv[1] == "launch"):
 				solmax, KO, FE, uniqueness, limreg, P, Fixpoint, printSolutions=False)
 			print("... done!")
 			condexp = getConditionsExp(experiments)
-			modelID = getArgument("modelID", sys.argv, 0)
+			idm = int(getArgument("modelID", sys.argv, 0))
+			modelID = idm if (not idm) else idm-1
 			q0 = getArgument("q0", sys.argv, "1"*len(C))
 			nstep = getArgument("nstep", sys.argv, length)
 			solmax = getArgument("solmax", sys.argv, 10)
