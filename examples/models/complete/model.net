@@ -1,7 +1,7 @@
 directive updates sync;
 directive length 20;
 directive uniqueness full;
-directive limit 20;
+directive limit 1;
 directive regulation default;
 G2[](0..17); S1[+](9); S2[+](4); G1[](13); 
 S1	G1	positive;
@@ -11,3 +11,6 @@ S1	G2	positive;
 S1	G2	negative;
 S2	G2	positive;
 S2	G2	negative;
+S1	S2	positive	optional;
+S2	S1	positive	optional;
+G2	S1	negative	optional;
