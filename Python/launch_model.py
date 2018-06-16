@@ -11,15 +11,13 @@ from copy import deepcopy
 ## model found by the solver                ##
 ##############################################
 
-def write_dot_file(g, filename, addGRF, nIdef):
+def write_dot_file(g, filename, addGRF):
     tmpfile = filename + ".tmp"
     dotfile = filename + ".dot"
     g.write_dot(tmpfile)
     with open(tmpfile, "r") as t:
     	with open(dotfile, "w") as f:
-		i = 0
 		for line in t:
-			i += 1
 			if ("label=" in line and not ("label=\"+\"" in line)):
 				if (addGRF and not ("label=-" in line)):
 					import re
@@ -29,8 +27,10 @@ def write_dot_file(g, filename, addGRF, nIdef):
 					line = line[:10] + tmp + "\n"
 				else:
 					line = line[:10] + "\"" + line[10:-1] + "\"\n"
-			elif ("label=" in line and (i > nIdef)):
-				line += "style=dashed,\n"
+			elif ("lty=4" in line):
+				line = "style=dashed\n"
+			elif ("lty=0" in line):
+				continue
 			f.write(line)
     from os import remove
     from subprocess import call
@@ -100,7 +100,7 @@ def model2igraph(modelID, resList, C, Idef1, Iopt1, P, model="", addGRF=True, pl
         edge_attrs = edge_attrs)
     ## Get a GraphViz version         ##
     filename = model + "_model" + str(modelID+1)
-    write_dot_file(g, filename, addGRF, nIdef)
+    write_dot_file(g, filename, addGRF)
     ## Delete 0-degree vertices       ##
     g.vs.select(_degree = 0).delete()
     if (plotIt):
