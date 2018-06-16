@@ -36,7 +36,7 @@ def write_dot_file(g, filename, addGRF, nIdef):
     from subprocess import call
     call("dot -Tpng " + dotfile + " > " + filename + ".png", shell=True)
     remove(tmpfile)
-    #remove(dotfile)
+    remove(dotfile)
  
 #' Display the Boolean Network representation 
 #' of the model: nodes are annotated by gene name and
