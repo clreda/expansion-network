@@ -4,7 +4,7 @@ if [ "$1" == "--clean" ];
 then
 echo "MSG: Cleaning"
 cd Python/
-rm -rf *.png results/ *.pyc ; mkdir results/
+rm -rf *.png results/ *.pyc *.dot *.tmp *.txt ; mkdir results/
 cd ../examples/models/complete/
 rm -f model_expanded.net complete-full+_expanded.net
 cd ../../
@@ -21,7 +21,7 @@ python solve.py launch complete igraph --model "complete-full+_expanded"
 echo "MSG: Model synthesis for the non-expanded model"
 python solve.py run --simplify complete/model_expanded.net complete/observations.spec > results/report-complete-model_expanded.txt
 echo "MSG: Model synthesis for the expanded model"
-python solve.py run --simplify complete/complete-full+_expanded.net complete/observations.spec > results/report-complete-full+_expanded.txt
+python solve.py run --simplify --visualize complete/complete-full+_expanded.net complete/observations.spec > results/report-complete-full+_expanded.txt
 echo "MSG: Generate trajectories for the first solution model found (expanded model)"
 python solve.py launch complete --model complete-full+_expanded --q0 Initial2 --nstep 5 --solmax 2 --modelID 1 --steadyStates 0 --expnames Final1 > results/trajectories-model1-5steps-Initial2-Final1-noSS.txt
 cd ../
