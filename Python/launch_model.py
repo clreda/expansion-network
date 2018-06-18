@@ -27,9 +27,9 @@ def write_dot_file(g, filename, addGRF):
 					line = line[:10] + tmp + "\n"
 				else:
 					line = line[:10] + "\"" + line[10:-1] + "\"\n"
-			elif ("lty=4" in line):
+			elif ("lty=4" in line and not addGRF):
 				line = "style=dashed\n"
-			elif ("lty=0" in line):
+			elif ("lty=0" in line or ("lty=" in line and addGRF)):
 				continue
 			f.write(line)
     from os import remove
