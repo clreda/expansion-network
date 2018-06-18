@@ -1,4 +1,4 @@
-This is an example of using the code for model expansion and synthesis, on a dummy model, called "complete". Related files, called "model.net" (the non-expanded model file), "observations.spec" (the experimental data file) and "complete_crms.R" (file which contains the TF bindings), are located at examples/models/complete. Associated script is vignette.sh.
+This is an example of using the code for model expansion and synthesis, on a dummy model, called "complete". Related files, called "model.net" (the non-expanded model file), "observations.spec" (the experimental data file) and "complete_crms.R" (file which contains the TF bindings), are located at examples/models/complete. Associated script is vignette.sh (start the script with the following command: "./vignette.sh". To clean the resulting files, type "./vignette.sh --clean").
 
 **Note:** There should be a **white space** at the end of the 6th line (line for node declaration) of "model.net".
 
