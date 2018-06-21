@@ -1,0 +1,54 @@
+MSG: --------- EXPERIMENT 'LineageOne'
+MSG: --------- EXPERIMENT 'LineageTwo'
+MSG: --------- EXPERIMENT 'LineageThree'
+MSG: --------- EXPERIMENT 'LineageFour'
+MSG: 
+TIME = 28.67 sec
+
+MSG: CHECKING TIME = 25.20 sec
+
+MSG: Model no. 1 found:
+MSG: > GRFs: 
+	grf_Mac1_gene = 4
+	grf_Mac1 = 4
+	grf_Id2 = 0
+	grf_Egr2 = 14
+	grf_Cebpb = 7
+	grf_Cebpa_gene = 0
+	grf_Cebpa = 8
+	grf_Csf1r = 0
+	grf_Csf1r_act = 4
+	grf_Spi11 = 10
+	grf_Spi12 = 10
+	grf_Runx1 = 4
+	grf_Gfi1 = 11
+	grf_Ikzf1 = 8
+	grf_Flt3 = 0
+	grf_Mef2c = 0
+	grf_Ets1 = 0
+	grf_Il7ra = 1
+	grf_Il7r_act = 4
+	grf_E2a_gene = 4
+	grf_E2a = 4
+	grf_E2a_prot_Active = 0
+	grf_Foxo1_gene = 0
+	grf_Foxo1 = 4
+	grf_Ebf1 = 4
+	grf_Ebf1_gene = 15
+	grf_Pax5_gene = 0
+	grf_Pax5 = 4
+	grf_Pax5_prot_active = 0
+	grf_Cd19_gene = 0
+	grf_Cd19 = 4
+	grf_Csf1 = 6
+	grf_Il7 = 15
+	grf_Cebpa_ER = 4
+MSG: ____________________________________
+
+MSG: Maximum number of solutions reached.
+
+MSG: There are solutions.
+
+MSG: Wrote GRFs in result_collombet_model_expanded.net.txt
+MSG: Simplify file result_collombet_model_expanded.net_model1.txt
+MSG: Simplified functions.

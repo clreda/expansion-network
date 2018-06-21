@@ -1,0 +1,36 @@
+KO_Oct4' = KO_Oct4
+KO_Sox2' = KO_Sox2
+KO_Nanog' = KO_Nanog
+KO_Esrrb' = KO_Esrrb
+KO_Stat3' = KO_Stat3
+FE_Esrrb' = FE_Esrrb
+FE_Tfcp2l1' = FE_Tfcp2l1
+Tcf3' = ((((NOT MEKERK) AND (NOT CH)) OR (NOT True)) OR ((NOT MEKERK) AND (NOT CH)))
+MEKERK' = ((((NOT PD)) OR (NOT True)) OR ((NOT PD)))
+Oct4' = (NOT (KO_Oct4) AND ((Oct4_CM17006877 AND Oct4_CM17006876 AND Oct4_CM17006875) AND (NOT ((NOT Oct4_CM17006877) AND (NOT Oct4_CM17006876) AND (NOT Oct4_CM17006875)))))
+Sall4' = (((NOT ((NOT Tfcp2l1))) AND (NOT False)) AND (NOT ((NOT Tfcp2l1))))
+Sox2' = (NOT (KO_Sox2) AND ((True OR ((NOT ((NOT Sox2_CM03005876))) AND (NOT False))) AND (NOT ((NOT Sox2_CM03005876)))))
+Tbx3' = ((NOT ((NOT Tfcp2l1))) AND ((NOT Tcf3)))
+Klf2' = (True AND (NOT ((NOT Sall4) AND (NOT Klf4))))
+Nanog' = (NOT (KO_Nanog) AND (Oct4 AND Sox2))
+Esrrb' = (FE_Esrrb OR (NOT (KO_Esrrb) AND (((Esrrb_CM12018796 AND Esrrb_CM12018795 AND Esrrb_CM12018772 AND Esrrb_CM12018771) AND (NOT False)) AND (NOT ((NOT Esrrb_CM12018796) AND (NOT Esrrb_CM12018795) AND (NOT Esrrb_CM12018772) AND (NOT Esrrb_CM12018771))))))
+Tfcp2l1' = (FE_Tfcp2l1 OR (((NOT ((NOT Esrrb) AND (NOT Stat3))) AND (NOT (Tcf3 AND Oct4))) OR (Esrrb AND Stat3)))
+Gbx2' = (((Gbx2_CM01018072 AND Gbx2_CM01018071 AND Gbx2_CM01018070) AND (NOT False)) AND (NOT ((NOT Gbx2_CM01018072) AND (NOT Gbx2_CM01018071) AND (NOT Gbx2_CM01018070))))
+Klf4' = (((True AND (NOT ((NOT Gbx2) AND (NOT Stat3)))) OR ((NOT False) AND (Gbx2 AND Stat3))) AND (NOT ((NOT Gbx2) AND (NOT Stat3))))
+Stat3' = (NOT (KO_Stat3) AND ((LIF) AND (NOT ((NOT LIF)))))
+PD' = (True AND (NOT ((NOT PD))))
+CH' = ((((NOT ((NOT CH))) AND (NOT False)) OR (CH)) AND (NOT ((NOT CH))))
+LIF' = (True AND (NOT ((NOT LIF))))
+Oct4_CM17006877' = (([Klf2] > 0) OR (([Klf2] = 0) AND Oct4_CM17006877))
+Oct4_CM17006876' = ((NOT False) AND (NOT ((NOT Klf2))))
+Oct4_CM17006875' = True
+Sox2_CM03005876' = ((True OR ((NOT ((NOT Sall4) AND (NOT Nanog))) AND (NOT False))) AND (NOT ((NOT Sall4) AND (NOT Nanog))))
+Esrrb_CM12018796' = (([Klf4] > 0) OR (([Klf4] = 0) AND Esrrb_CM12018796))
+Esrrb_CM12018795' = (Nanog)
+Esrrb_CM12018772' = (([Nanog] > 0) OR (([Nanog] = 0) AND Esrrb_CM12018772))
+Esrrb_CM12018771' = (NOT False)
+Gbx2_CM01018072' = (True OR ((NOT True) AND (NOT False)))
+Gbx2_CM01018071' = (((NOT ((NOT Stat3))) AND (NOT False)) AND (NOT ((NOT Stat3))))
+Gbx2_CM01018070' = ((True OR False) OR ((NOT False) AND (NOT True)))
+Stat3_CM11023939' = (True OR ((NOT False) AND False))
+Stat3_CM11023938' = ((True OR False) OR ((NOT False) AND (NOT True)))

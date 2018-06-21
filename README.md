@@ -2,6 +2,8 @@
 
 This GitHub project provides the code for the network inference and model expansion procedures, along with all the related scripts used in the paper *Automated Inference of Gene Regulatory Networks Using Explicit Regulatory Modules* (non published).
 
+The folder "docs" contains supplementary material for the tests performed in the core paper.
+
 ## Requirements & Installation
 
 **Python:** Packages **Z3** (SMT solver) and **igraph** (GRN visualization).

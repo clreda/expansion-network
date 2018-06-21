@@ -1,0 +1,58 @@
+crms <- list(nodes=c("Tcf3", "MEKERK", "Stat3", "Oct4",
+				"Sall4", "Sox2", "Klf4", "Tbx3", "Klf2", 
+				"Nanog", "Esrrb", "Tfcp2l1", "Gbx2"),
+		## Browse genecards.org       ##
+		isTF=list(
+			Tcf3=TRUE, 
+			MEKERK=FALSE,
+			Stat3=TRUE,
+			Oct4=TRUE, 
+			Sall4=TRUE,
+			Sox2=TRUE,
+			Klf4=TRUE,
+			Tbx3=TRUE,	
+			Klf2=TRUE,
+			Nanog=TRUE,
+			Esrrb=TRUE, 
+			Tfcp2l1=TRUE, 
+			Gbx2=TRUE
+			),
+			crms=list(
+				Tcf3=list("CM10015460", "CM10015456", "CM10015455"), 
+				MEKERK=list("CM16003054"),
+				Stat3=list("CM11023939", "CM11023938"),
+				Oct4=list("CM17006877", "CM17006876", "CM17006875"), 
+				Sall4=list("CM02038711"),
+				Sox2=list("CM03005877", "CM03005876"),
+				Klf4=list("CM04010396"),
+				Tbx3=list("CM05023198"),	
+				Klf2=list("CM08013093"),
+				Nanog=list("CM06025863"),
+				Esrrb=list("CM12018796", "CM12018795", "CM12018772", "CM12018771"), 
+				Tfcp2l1=list("CM01022019"), 
+				Gbx2=list("CM01018072", "CM01018071", "CM01018070")
+			),
+			tfs=list(
+				Tcf3=list(CM10015460=list("Klf2", "Klf4"), CM10015456=NULL, CM10015455=NULL),
+				MEKERK=list(CM16003054=NULL),
+				Stat3=list(CM11023939=list("Klf2", "Klf4"), CM11023938=list("Sox2")),
+				Oct4=list(CM17006877=list("Klf2", "Klf4"), 
+							CM17006876=list("Nanog", "Sox2", "Klf2", "Klf4"), 
+							CM17006875=list("Oct4", "Sox2")),
+				Sall4=list(CM02038711=list("Klf2", "Klf4")),
+				Sox2=list(CM03005877=list("Nanog"), CM03005876=list("Sox2", "Nanog")),
+				Klf4=list(CM04010396=NULL),
+				Tbx3=list(CM05023198=list("Sox2")),
+				Klf2=list(CM08013093=NULL),
+				Nanog=list(CM06025863=list("Oct4", "Sox2")),
+				Esrrb=list(CM12018796=list("Klf2", "Klf4", "Oct4"),
+					CM12018795=list("Nanog", "Sox2"),
+					CM12018772=list("Oct4", "Sox2", "Nanog"),
+					CM12018771=list("Stat3")
+				), 
+				Tfcp2l1=list(CM01022019=NULL), 
+				Gbx2=list(CM01018072=list("Oct4", "Sox2"), 
+					CM01018071=list("Stat3"), 
+					CM01018070=list("Oct4"))
+			)
+		)

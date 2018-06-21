@@ -1,0 +1,58 @@
+MSG: --------- EXPERIMENT 'ExperimentOne'
+MSG: --------- EXPERIMENT 'ExperimentTwo'
+MSG: --------- EXPERIMENT 'ExperimentThree'
+MSG: --------- EXPERIMENT 'ExperimentFour'
+MSG: --------- EXPERIMENT 'ExperimentFive'
+MSG: --------- EXPERIMENT 'ExperimentSix'
+MSG: --------- EXPERIMENT 'ExperimentSeven'
+MSG: --------- EXPERIMENT 'ExperimentEight'
+MSG: --------- EXPERIMENT 'ExperimentNine'
+MSG: --------- EXPERIMENT 'ExperimentTen'
+MSG: --------- EXPERIMENT 'ExperimentEleven'
+MSG: --------- EXPERIMENT 'ExperimentTwelve'
+MSG: --------- EXPERIMENT 'ExperimentThirteen'
+MSG: --------- EXPERIMENT 'ExperimentFourteen'
+MSG: --------- EXPERIMENT 'ExperimentFifteen'
+MSG: --------- EXPERIMENT 'ExperimentSixteen'
+MSG: --------- EXPERIMENT 'ExperimentSeventeen'
+MSG: --------- EXPERIMENT 'ExperimentEighteen'
+MSG: --------- EXPERIMENT 'ExperimentNineteen'
+MSG: --------- EXPERIMENT 'ExperimentTwenty'
+MSG: --------- EXPERIMENT 'ExperimentTwentyOne'
+MSG: --------- EXPERIMENT 'ExperimentTwentyTwo'
+MSG: --------- EXPERIMENT 'ExperimentTwentyThree'
+MSG: 
+TIME = 123.69 sec
+
+MSG: CHECKING TIME = 745.57 sec
+
+MSG: Model no. 1 found:
+MSG: > Interaction vector: 
+MSG: ['Esrrb', 'Klf2', '-']['Klf2', 'Esrrb', '-']['Esrrb', 'Klf4', '+']['Klf4', 'Esrrb', '+']['Esrrb', 'Nanog', '+']['Nanog', 'Esrrb', '+']['Esrrb', 'Oct4', '-']['Oct4', 'Esrrb', '-']['Esrrb', 'Tbx3', '+']['Tbx3', 'Esrrb', '+']['Esrrb', 'Tfcp2l1', '+']['Tfcp2l1', 'Esrrb', '+']['Esrrb', 'Stat3', '+']['Stat3', 'Esrrb', '+']['Esrrb', 'Gbx2', '+']['Gbx2', 'Esrrb', '+']['Klf2', 'Klf4', '+']['Klf4', 'Klf2', '+']['Klf2', 'Nanog', '+']['Nanog', 'Klf2', '+']['Klf2', 'Oct4', '+']['Oct4', 'Klf2', '+']['Klf2', 'Tbx3', '-']['Tbx3', 'Klf2', '-']['Klf2', 'Tfcp2l1', '-']['Tfcp2l1', 'Klf2', '-']['Klf2', 'Gbx2', '-']['Gbx2', 'Klf2', '-']['Klf2', 'Sall4', '+']['Sall4', 'Klf2', '+']['Klf2', 'Tcf3', '+']['Tcf3', 'Klf2', '+']['Klf4', 'Tbx3', '+']['Tbx3', 'Klf4', '+']['Klf4', 'Tfcp2l1', '+']['Tfcp2l1', 'Klf4', '+']['Klf4', 'Gbx2', '+']['Gbx2', 'Klf4', '+']['Nanog', 'Oct4', '+']['Oct4', 'Nanog', '+']['Nanog', 'Tfcp2l1', '+']['Tfcp2l1', 'Nanog', '+']['Nanog', 'Sox2', '+']['Sox2', 'Nanog', '+']['Oct4', 'Tfcp2l1', '-']['Tfcp2l1', 'Oct4', '-']['Oct4', 'Gbx2', '-']['Gbx2', 'Oct4', '-']['Oct4', 'Tcf3', '+']['Tcf3', 'Oct4', '+']['Tbx3', 'Tfcp2l1', '+']['Tfcp2l1', 'Tbx3', '+']['Tbx3', 'Gbx2', '+']['Gbx2', 'Tbx3', '+']['Tbx3', 'Sall4', '+']['Sall4', 'Tbx3', '+']['Tbx3', 'Tcf3', '-']['Tcf3', 'Tbx3', '-']['Tbx3', 'Sox2', '+']['Sox2', 'Tbx3', '+']['Tfcp2l1', 'Sall4', '+']['Sall4', 'Tfcp2l1', '+']['Stat3', 'Tcf3', '-']['Tcf3', 'Stat3', '-']['Stat3', 'Sox2', '-']['Sox2', 'Stat3', '-']['Sall4', 'Sox2', '+']['Sox2', 'Sall4', '+']['Tcf3', 'Nanog', '+']['Nanog', 'Tcf3', '+']
+	selected_interactions = 0000010110110000011010000000010010100101001110000000010001001000001000
+MSG: > GRFs: 
+	grf_Tcf3 = 16
+	grf_MEKERK = 16
+	grf_Oct4 = 7
+	grf_Sall4 = 5
+	grf_Sox2 = 15
+	grf_Tbx3 = 1
+	grf_Klf2 = 7
+	grf_Nanog = 4
+	grf_Esrrb = 4
+	grf_Tfcp2l1 = 3
+	grf_Gbx2 = 4
+	grf_Klf4 = 5
+	grf_Stat3 = 4
+	grf_PD = 0
+	grf_CH = 11
+	grf_LIF = 7
+MSG: ____________________________________
+
+MSG: Maximum number of solutions reached.
+
+MSG: There are solutions.
+
+MSG: Wrote GRFs in result_pluripotency_model_expanded.net.txt
+MSG: Simplify file result_pluripotency_model_expanded.net_model1.txt
+MSG: Simplified functions.
