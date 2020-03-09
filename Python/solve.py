@@ -191,7 +191,7 @@ if (len(sys.argv) > 1 and sys.argv[1] == "launch"):
 			q0 = concat(q0)
 			## In order to add long-lasting perturbations
 			ko = getArgument("KO", sys.argv, "")
-			fe = getArgument("OE", sys.argv, "")
+			fe = getArgument("FE", sys.argv, "")
 			if (ko in condexp.keys()):
 				KO = [[ko, condexp.get(ko)]]
 			else:
