@@ -152,9 +152,9 @@ if (len(sys.argv) > 1 and sys.argv[1] == "launch"):
 			resList = []
 		[C, CRM, length, Idef, Iopt, R, E, typeT, solmax, KO, FE, uniqueness, 
 			limreg, P, Fixpoint] = readREINfile(model, experiments)
-		## Avoids adding colours to the nodes according to their perturbations      ##
-		P = [""]*len(C)
 		if (len(sys.argv) > 3 and sys.argv[3] == "igraph"):
+			## Avoids adding colours to the nodes according to their perturbations      ##
+			P = [""]*len(C)
 			if (not resList):
 				addGRF = False
 				R = [["?"]]*len(C)
@@ -166,10 +166,13 @@ if (len(sys.argv) > 1 and sys.argv[1] == "launch"):
 			model2igraph(0, resList, C, Idef, Iopt, P, model=sys.argv[2] + "_" + emodel, plotIt=True, addGRF=addGRF)
 		else:
 			print("-- START")
-			print("Solving abstract model...")
-			[resList, _, _] = grn_solver(C, CRM, length, Idef, Iopt, R, E, typeT, 
-				solmax, KO, FE, uniqueness, limreg, P, Fixpoint, printSolutions=False)
-			print("... done!")
+			if (len(Iopt) > 0):
+				print("Solving abstract model...")
+				[resList, _, _] = grn_solver(C, CRM, length, Idef, Iopt, R, E, typeT, 
+					solmax, KO, FE, uniqueness, limreg, P, Fixpoint, printSolutions=False)
+				print("... done!")
+			else:
+				resList = [[['Is', []]] + [["grf_"+C[i], R[i][0]] for i in range(len(C))]]
 			condexp = getConditionsExp(experiments)
 			idm = int(getArgument("modelID", sys.argv, 0))
 			modelID = idm if (not idm) else idm-1
@@ -186,11 +189,27 @@ if (len(sys.argv) > 1 and sys.argv[1] == "launch"):
 				for i in idx:
 					q0[i] = str(state[names.index(C[i])][2])
 			q0 = concat(q0)
+			## In order to add long-lasting perturbations
+			ko = getArgument("KO", sys.argv, "")
+			fe = getArgument("OE", sys.argv, "")
+			if (ko in condexp.keys()):
+				KO = [[ko, condexp.get(ko)]]
+			else:
+				KO = []
+			if (fe in condexp.keys()):
+				FE = [[fe, condexp.get(fe)]]
+			else:
+				FE = []
 			trajectories = launch_model(modelID, C, CRM, resList, Idef, Iopt, R, 
-					q0, int(nstep), typeT, [], [], P, int(solmax), 
+					q0, int(nstep), typeT, KO, FE, P, int(solmax), 
 					steadyStates=bool(steadyStates))
 			print("----------------------------------------------------------------")
-			print("modelID = " + str(modelID) + "; q0 = " + q0 + "; nstep = " + str(nstep) + "\n")
+			print("modelID = " + str(modelID) + "; q0 = " + q0 + "; nstep = " + str(nstep))
+			if (KO):
+				print("KO perturbations = { "+reduce(lambda x,y: x+", "+y, list(filter(lambda x :x, [x[1][3:-1] if (x[2] > 0) else None for x in KO[0][1]])))+" }")
+			if (FE):
+				print("FE perturbations = { "+reduce(lambda x,y: x+", "+y, list(filter(lambda x :x, [x[1][3:-1] if (x[2] > 0) else None for x in FE[0][1]])))+" }")
+			print("")
 			npaths = len(trajectories)
 			print("#trajectories = " + str(npaths))
 			print("----------------------------------------------------------------")

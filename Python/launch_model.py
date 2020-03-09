@@ -3,7 +3,6 @@
 from grn_solver import grn_solver
 from grn_inference import getState
 from utils import rev, verboseIt, ifthenelse
-from igraph import *
 from copy import deepcopy
  
 ##############################################
@@ -59,6 +58,7 @@ def write_dot_file(g, filename, addGRF):
 #' @param verbose boolean for having comments
 #' @return res igraph associated to the model
 def model2igraph(modelID, resList, C, Idef1, Iopt1, P, model="", addGRF=True, plotIt=False, verbose=False):
+    from igraph import *
     Idef = deepcopy(Idef1)
     Iopt = deepcopy(Iopt1)
     ngenes = len(C)
@@ -157,6 +157,8 @@ def launch_model(modelID, C, CRM, resList, Idef, Iopt, R, q0, nstep, typeT, KO, 
 	Fixpoint = ifthenelse(steadyStates, [[nstep, exp_name]], [])
 	grfsres = [str(x[0]) for x in resList]
 	R = [[resList[grfsres.index("grf_" + c)][1]] for c in C]
+	KO = [[exp_name, x[1]] for x in KO]
+	FE = [[exp_name, x[1]] for x in FE]
 	## Get solmax trajectories from the given initial state          ##
 	res = grn_solver(C, CRM, nstep, I, [], R, E, typeT, solmax, KO, FE, "paths", "", P, Fixpoint, 
 			verbose=verbose, printSolutions=verbose, printmain=verbose)
