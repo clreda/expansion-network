@@ -152,7 +152,7 @@ if (len(sys.argv) > 1 and sys.argv[1] == "launch"):
 			resList = []
 		[C, CRM, length, Idef, Iopt, R, E, typeT, solmax, KO, FE, uniqueness, 
 			limreg, P, Fixpoint] = readREINfile(model, experiments)
-		if (len(sys.argv) > 3 and sys.argv[3] == "igraph"):
+		if (len(sys.argv) > 3 and "igraph" in sys.argv):
 			## Avoids adding colours to the nodes according to their perturbations      ##
 			P = [""]*len(C)
 			if (not resList):
