@@ -12,8 +12,8 @@ getIdxOfData <- function(col, ls) return(which(col == names(ls)))
 #'
 #' @export
 idxNULLInList <- function(lsls) {
-	if (is.null(lsls)) return(NULL)
-	return(which(sapply(lsls, function(ll) is.null(ll[[1]]))))
+	if (is.null(lsls) || length(lsls) == 0) return(NULL)
+	return(which(sapply(lsls, function(ll) length(ll) == 0 || is.null(ll[[1]]))))
 }
 
 #' Remove NULL elements in input list list
