@@ -101,7 +101,7 @@ To test functions from *filename* in {*shortcuts* | *utils* | *grn_inference* | 
 
 By default, the model file and the experiments files are respectively named "model.net" and "observations.spec". This can be modified in file `global_paths.py`. They are stored in the models folder in a subdirectory called "model_name". 
 
-`python solve.py launch model_name [igraph] [--model (default:model_expanded)] [--experiments (default:observations)] [--modelID (default:0)] [--q0 (default:111...11)] [--nstep (default:20)] [--solmax (default:10)] [--steadyStates (default:0)] [--expnames condition1 condition2 ...]`
+`python solve.py launch model_name [igraph] [--model (default:model_expanded)] [--experiments (default:observations)] [--KO (default:"")] [--FE (default:"")] [--modelID (default:0)] [--q0 (default:111...11)] [--nstep (default:20)] [--solmax (default:10)] [--steadyStates (default:0)] [--expnames condition1 condition2 ...]`
 
 
 - if *igraph* is present then it returns the igraph associated with model solution number *modelID* (or the full abstract model if no non-empty model solution list is provided, see `solve.py`)
@@ -109,6 +109,10 @@ By default, the model file and the experiments files are respectively named "mod
 - *model* is the model file name (without the extension ".net").
 
 - *experiments* is the experiments file name (without the extension ".spec").
+
+- *KO* is a set of knocked-out perturbations (as a condition name that appears in the experiments file, with "KnockDown" in it).
+
+- *FE* is a set of forcibly-expressed perturbations (as a condition name that appears in the experiments file, with "OverExpression" in it).
 
 - *modelID* is the index of the model candidate on which the function should be applied.
 
