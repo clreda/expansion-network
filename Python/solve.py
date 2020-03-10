@@ -182,13 +182,7 @@ if (len(sys.argv) > 1 and sys.argv[1] == "launch"):
 			steadyStates = getArgument("steadyStates", sys.argv, 0)
 			expnames = getTrailingArguments("expnames", sys.argv, [])
 			if (q0 in condexp.keys()):
-				state = condexp.get(q0)
-				names = [x[1] for x in state]
-				idx = [C.index(name) for name in names]
-				q0 = ["1"]*len(C)
-				for i in idx:
-					q0[i] = str(state[names.index(C[i])][2])
-			q0 = concat(q0)
+				q0 = condexp.get(q0)
 			## In order to add long-lasting perturbations
 			ko = getArgument("KO", sys.argv, "")
 			fe = getArgument("FE", sys.argv, "")
@@ -204,7 +198,7 @@ if (len(sys.argv) > 1 and sys.argv[1] == "launch"):
 					q0, int(nstep), typeT, KO, FE, P, int(solmax), 
 					steadyStates=bool(steadyStates))
 			print("----------------------------------------------------------------")
-			print("modelID = " + str(modelID) + "; q0 = " + q0 + "; nstep = " + str(nstep))
+			print("modelID = " + str(modelID) + "; q0 = {" + (reduce(lambda x,y : x+", "+y, list(map(lambda x: x[1]+"="+str(x[2]), q0))) if (str(type(q0)) == "<type 'list'>") else q0) + "} ; nstep = " + str(nstep))
 			if (KO):
 				print("KO perturbations = { "+reduce(lambda x,y: x+", "+y, list(filter(lambda x :x, [x[1][3:-1] if (x[2] > 0) else None for x in KO[0][1]])))+" }")
 			if (FE):

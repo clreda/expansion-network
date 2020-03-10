@@ -58,7 +58,7 @@ def write_dot_file(g, filename, addGRF):
 #' @param verbose boolean for having comments
 #' @return res igraph associated to the model
 def model2igraph(modelID, resList, C, Idef1, Iopt1, P, model="", addGRF=True, plotIt=False, verbose=False):
-    from igraph import *
+    #from igraph import *
     Idef = deepcopy(Idef1)
     Iopt = deepcopy(Iopt1)
     ngenes = len(C)
@@ -153,7 +153,10 @@ def launch_model(modelID, C, CRM, resList, Idef, Iopt, R, q0, nstep, typeT, KO, 
 			I.append(Iopt[i])
 	## Building the constraints for the initial state                ##
 	exp_name = "Experiment"
-	E = [[exp_name, [[0, C[i], int(q0[i])] for i in range(len(C))]]]
+	if (str(type(q0)) == "<type 'str'>"):
+		E = [[exp_name, [[0, C[i], int(q0[i])] for i in range(len(C))]]]
+	else:
+		E = [[exp_name, [[0, x[1], int(x[2])] for x in q0]]]
 	Fixpoint = ifthenelse(steadyStates, [[nstep, exp_name]], [])
 	grfsres = [str(x[0]) for x in resList]
 	R = [[resList[grfsres.index("grf_" + c)][1]] for c in C]
