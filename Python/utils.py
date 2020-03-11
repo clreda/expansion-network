@@ -287,15 +287,16 @@ def concat(l, sep=""):
 
 def printStates(trajectories, i, C):
 	chunksC = [C[j:j + 10] for j in xrange(0, len(C), 10)]
+	## Print trajectory number
 	print(trajectories[i][0] + "\n")
 	path = trajectories[i][1]
-	getStep = lambda j : path[j][0][2:].split("_")[0].replace("_", " ")
+	## get step name
+	getStep = lambda t : path[t][0][2:].split("_")[0].replace("_", " ")
+	gene_pos = 0
 	for ck in chunksC:
-		print(" "*(len(path[-1][0][2:].split("_")[0])+2) 
-				+ concat(ck, sep=" "))
-		for j in range(len(path)):
-			nn = len(path[-1][0])-len(path[j][0])+1
-			print(getStep(j)
-				+ " " + ifthenelse(nn > 0, " "*nn, "") 
-				+ concat([path[j][1][l] + " "*len(ck[l]) 
-				for l in range(len(ck))]))
+		## Header for gene names
+		print(" "*(len(path[-1][0][2:].split("_")[0])+2) + concat(ck, sep=" "))
+		for t in range(len(path)):
+			nn = len(path[-1][0])-len(path[t][0])+1
+			print(getStep(t) + " " + ifthenelse(nn > 0, " "*nn, "") + concat([path[t][1][gene_pos:(gene_pos+len(ck))][l]+(" "*len(ck[l])) for l in range(len(ck))]))
+		gene_pos += len(ck)
