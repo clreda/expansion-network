@@ -205,7 +205,7 @@ def grn_solver(C, CRM, length, Idef, Iopt, R, E, typeT, solmax, KO, FE, uniquene
     Is = BitVec("selected_interactions", len(Iopt)) if (Iopt) else false
     if (maximize):
 	from utils import sub
-	Is = BV2Int(sub(Is))
+	lIs = BV2Int(sub(Is))
 	objective = s.maximize(lIs)
     intVar = [Is]
     ## Variables for the regulation functions           ##
