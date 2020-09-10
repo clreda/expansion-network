@@ -206,6 +206,8 @@ def grn_solver(C, CRM, length, Idef, Iopt, R, E, typeT, solmax, KO, FE, uniquene
     if (maximize):
 	from utils import sub
 	lIs = BV2Int(sub(Is))
+	s.add(lIs > 0)
+	s.add(lIs <= len(Iopt))
 	objective = s.maximize(lIs)
     intVar = [Is]
     ## Variables for the regulation functions           ##
