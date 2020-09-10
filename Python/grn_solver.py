@@ -173,7 +173,7 @@ def getSolution(C, length, Iopt, ngenes, t, s, intVar, regVar, stateVar, regulat
 #' @return resList list of models where Is and Rs are 
 #'                 the instanciated constrained ABN
 #'                 that agree with all the experiments (+ solver)
-def grn_solver(C, CRM, length, Idef, Iopt, R, E, typeT, solmax, KO, FE, uniqueness, limreg, P, Fixpoint, verbose=False, printSolutions=True, printmain=True):
+def grn_solver(C, CRM, length, Idef, Iopt, R, E, typeT, solmax, KO, FE, uniqueness, limreg, P, Fixpoint, verbose=False, printSolutions=True, printmain=True, maximize=False):
     ## Selected interaction number limit                ##
     interaction_limit = 0
     if (not interaction_limit and Iopt):
@@ -183,7 +183,10 @@ def grn_solver(C, CRM, length, Idef, Iopt, R, E, typeT, solmax, KO, FE, uniquene
     #____________________________________________________#
     if (not solmax):
         solmax = 10
-    s = Solver()
+    if (maximize):
+	s = Optimize()
+    else:
+        s = Solver()
     ngenes = len(C)
     zero, one = buildZERO(ngenes), buildONE(ngenes)
     mustHaveActivator = []
@@ -200,6 +203,10 @@ def grn_solver(C, CRM, length, Idef, Iopt, R, E, typeT, solmax, KO, FE, uniquene
             mustHaveActivator.append(i)
     ## Variable for the subset of optional interactions ##
     Is = BitVec("selected_interactions", len(Iopt)) if (Iopt) else false
+    if (maximize):
+	from utils import sub
+	Is = BV2Int(sub(Is))
+	objective = s.maximize(lIs)
     intVar = [Is]
     ## Variables for the regulation functions           ##
     Rs = [BitVec("grf_%s" % node, 5) for node in C] 
