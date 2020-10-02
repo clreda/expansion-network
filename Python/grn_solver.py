@@ -203,7 +203,7 @@ def grn_solver(C, CRM, length, Idef, Iopt, R, E, typeT, solmax, KO, FE, uniquene
             mustHaveActivator.append(i)
     ## Variable for the subset of optional interactions ##
     Is = BitVec("selected_interactions", len(Iopt)) if (Iopt) else false
-    if (maximize):
+    if (maximize and len(Iopt) > 0):
 	from utils import sub
 	lIs = BV2Int(sub(Is))
 	s.add(lIs > 0)
